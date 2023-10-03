@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "boofi",
+    "boofi_macros"
+]

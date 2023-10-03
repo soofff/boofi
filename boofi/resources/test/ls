@@ -1,0 +1,13 @@
+config-5.15.0-78-generic
+efi
+grub
+initrd.img
+initrd.img-5.15.0-78-generic
+initrd.img.old
+memtest86+.bin
+memtest86+.elf
+memtest86+_multiboot.bin
+System.map-5.15.0-78-generic
+vmlinuz
+vmlinuz-5.15.0-78-generic
+vmlinuz.old

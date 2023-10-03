@@ -1,0 +1,7 @@
+# /etc/fstab: static file system information.
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+UUID=33556600-c612-49a5-9e48-df1c531e9460 /               ext4    rw,user,noauto,uid=0,gid=46,umask=007,nls=utf8	 0       1
+# another comment
+UUID=B46E-3FC3  /boot/efi       vfat    umask=0077      0       1
+/swapfile                                 none            swap    sw              0       0

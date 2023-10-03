@@ -1,0 +1,37 @@
+[package]
+name = "boofi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+semver = { version = "1.0.17", features = ["serde"] }
+axum = { version = "0.6.18", features = ["headers"] }
+serde = { version = "1.0.167", features = ["derive"] }
+tokio = { version = "1.29.1", features = ["full"] }
+regex = { version = "1.9.1" }
+serde_json = { version = "1.0.100", features = ["preserve_order"] }
+log = "0.4.19"
+env_logger = "0.10.0"
+lazy_static = "1.4.0"
+base64 = "0.21.2"
+ssh-rs = { git = "https://github.com/1148118271/ssh-rs", rev = "0e85a0455e3d8defe142c146fdeed7d5de745d9b" }
+tempfile = "3.6.0"
+serde_regex = "1.1.0"
+hyper = "0.14.27"
+axum-macros = "0.3.7"
+async-trait = "0.1.71"
+async-ssh2-tokio = { git = "https://github.com/Miyoshi-Ryota/async-ssh2-tokio", rev = "5e5bad3ac70c8196c578b17ad69a6cba897e8614" }
+thiserror = "1.0.43"
+serde_yaml = "0.9.22"
+rand = "0.8.5"
+clap = { version = "4.3.11", features = ["derive"] }
+rcgen = "0.11.1"
+rustls = "0.21.3"
+rustls-pemfile = "1.0.3"
+tower = "0.4.13"
+tokio-rustls = "0.24.1"
+futures-util = "0.3.28"
+erased-serde = "0.3.27"
+boofi_macros = { path = "../boofi_macros" }
+
+[dev-dependencies]

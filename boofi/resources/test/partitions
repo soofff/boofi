@@ -1,0 +1,8 @@
+major minor  #blocks  name
+
+   7        0      64972 loop0
+  11        0    1048575 sr0
+   8        0  314572800 sda
+   8        1     524288 sda1
+   8        2          1 sda2
+   8        5  314045440 sda5

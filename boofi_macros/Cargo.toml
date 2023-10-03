@@ -1,0 +1,13 @@
+[package]
+name = "boofi_macros"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+serde = {version="1.0.167", features=["derive"] }
+syn = "2.0.23"
+quote = "1.0.29"
+proc-quote = "0.4.0"

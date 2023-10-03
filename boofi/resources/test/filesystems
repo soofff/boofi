@@ -1,0 +1,3 @@
+nodev	sysfs
+	ext3
+nodev	fuse

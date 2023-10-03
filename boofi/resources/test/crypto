@@ -1,0 +1,55 @@
+name         : __gcm(aes)
+driver       : __generic-gcm-aesni
+module       : aesni_intel
+priority     : 400
+refcnt       : 1
+selftest     : passed
+internal     : yes
+type         : aead
+async        : no
+blocksize    : 1
+ivsize       : 12
+maxauthsize  : 16
+geniv        : <none>
+
+name         : __ctr(aes)
+driver       : __ctr-aes-aesni
+module       : aesni_intel
+priority     : 400
+refcnt       : 1
+selftest     : passed
+internal     : yes
+type         : skcipher
+async        : no
+blocksize    : 1
+min keysize  : 16
+max keysize  : 32
+ivsize       : 16
+chunksize    : 16
+walksize     : 16
+
+name         : __cts(cbc(aes))
+driver       : __cts-cbc-aes-aesni
+module       : aesni_intel
+priority     : 400
+refcnt       : 1
+selftest     : passed
+internal     : yes
+type         : skcipher
+async        : no
+blocksize    : 16
+min keysize  : 16
+max keysize  : 32
+ivsize       : 16
+chunksize    : 16
+walksize     : 32
+
+name         : dh
+driver       : dh-generic
+module       : kernel
+priority     : 100
+refcnt       : 1
+selftest     : passed
+internal     : no
+type         : kpp
+

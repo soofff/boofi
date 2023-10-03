@@ -1,0 +1,14 @@
+Personalities : [linear] [raid0] [raid1] [raid10] [raid6] [raid5] [raid4]
+md3 : active raid1 sdb1[1](F) sda1[0]
+      104320 blocks [2/1] [U_]
+
+md2 : active raid5 hdc3[0] hde3[1] hdg3[2]
+      112639744 blocks level 5, 64k chunk, algorithm 0 [3/3] [UUU]
+
+md1 : active raid1 sdb3[2] sda3[0]
+      3068288 blocks [2/1] [U_]
+      [=>...................]  recovery =  8.1% (251596/3068288) finish=6.7min speed = 6963K/sec
+md4 : active raid1 sdb4[1](F) sda4[0]
+      4096448 blocks [2/1] [U_]
+
+unused devices: <none>

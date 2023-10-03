@@ -1,0 +1,4 @@
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+/dev/sda5 / ext4 rw,relatime,errors=remount-ro 1 2
+/dev/loop0 /snap/core20/1974 squashfs ro,nodev,relatime,errors=continue 0 0
+/dev/fuse /run/user/1000/doc fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
